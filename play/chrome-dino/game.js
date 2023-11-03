@@ -117,14 +117,14 @@ var IS_MOBILE = /Android/.test(window.navigator.userAgent) || IS_IOS;
  * @enum {number}
  */
 Runner.config = {
-    ACCELERATION: 1,
+    ACCELERATION: .01,
     BG_CLOUD_SPEED: 0.2,
     BOTTOM_PAD: 10,
     CLEAR_TIME: 3000,
     CLOUD_FREQUENCY: 0.5,
     GAMEOVER_CLEAR_TIME: 1200,
     GAP_COEFFICIENT: 0.6,
-    GRAVITY: 1,
+    GRAVITY: 100,
     INITIAL_JUMP_VELOCITY: 12,
     INVERT_FADE_DURATION: 12000,
     INVERT_DISTANCE: 700,
